@@ -59,9 +59,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000000;
   text-align: left;
-  background-color: #fff;
+  background-color: #c0c0c0;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: #95999e;
+  color: #000;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2687,7 +2687,7 @@ fieldset:disabled a.btn {
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #212529;
-  background-color: #1b518b;
+  background-color: #a0a141;
   border-color: #1b518b;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
@@ -6001,7 +6001,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #b19867 !important;
+  background-color: #c9570c !important;
 }
 
 .bg-secondary {
@@ -9742,7 +9742,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #568cbd !important;
 }
 
 .text-black-50 {
@@ -10051,7 +10051,8 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(194, 175, 137, 0.9);
+  background-color: rgb(201, 87, 12, .7);
+  
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
