@@ -2436,8 +2436,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #212529;
-  background-color: #b59e70;
-  border-color: #b19867;
+  background-color: #c9570c;
+  border-color: #c9570c;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #212529;
@@ -6005,7 +6005,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #343148 !important;
+  background-color: #000 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10134,12 +10134,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #343148;
+  background-color: #000;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1e1c2a;
+  background-color: #383838;
 }
 
 #brandImage {
