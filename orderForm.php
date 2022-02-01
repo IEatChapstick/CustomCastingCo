@@ -1,6 +1,12 @@
 <?php
-if($_POST["message"]) {
-mail("your@email.address", "Here is the subject line",
-$_POST["insert your message here"]. "From: an@email.address");
+$mysubmit = $_POST["return"];
+$name = $_POST["name"];
+$email = $_POST["email"];
+$file = $_POST["objFile"];
+$metal = $_POST["metalType"];
+$extra = $_POST["specifics"];
+if($mysubmit) {
+    mail("skyfloyd2004@gmail.com", "New Order From " . $name, 
+    $metal. "\n" . $file . "\n" . $extra . "\n ". $email);
 }
 ?>
